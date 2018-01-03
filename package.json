@@ -1,0 +1,19 @@
+{
+  "name": "widget-vue",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "Alexander Duka <alexander.duka@namecheap.com>",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --host 0.0.0.0 --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "build": "node build/build.js"
+  },
+  "main": "src/main.js",
+  "dependencies": {
+    "moment": "^2.20.1",
+    "vue": "^2.5.2",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {}
+}
