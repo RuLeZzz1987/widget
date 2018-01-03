@@ -9,7 +9,6 @@
     "start": "npm run dev",
     "build": "node build/build.js"
   },
-  "main": "src/main.js",
   "dependencies": {
     "moment": "^2.20.1",
     "vue": "^2.5.2",
